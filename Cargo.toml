@@ -1,0 +1,13 @@
+[package]
+name = "mpris-ctl"
+version = "0.1.0"
+authors = ["Sebastián Magrí <sebasmagri@gmail.com>"]
+
+[dependencies]
+dbus = "0.5"
+gdk = "0.5"
+notify-rust = "3.0"
+
+[dependencies.gtk]
+version = "0.1"
+features = ["v3_16"]
